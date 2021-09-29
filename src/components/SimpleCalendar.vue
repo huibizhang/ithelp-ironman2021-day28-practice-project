@@ -1,7 +1,7 @@
 <template>
   <div class="border flex flex-col rounded-md overflow-hidden">
     <div class="flex justify-center items-center p-3 border-b bg-blue-600 text-white font-bold">
-      2021 9 月
+      {{year}} {{month}} 月
     </div>
     <div class="grid grid-cols-7 place-items-center">
       <div class="w-10 h-10 text-xs font-bold flex justify-center items-center" v-for="wd in weekDays" :key="wd">
